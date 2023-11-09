@@ -66,7 +66,7 @@ type VimeoFile struct {
 	Height      int       `json:"height,omitempty"`
 	Link        string    `json:"link,omitempty"`
 	CreatedTime time.Time `json:"created_time,omitempty"`
-	FPS         int       `json:"fps,omitempty"`
+	FPS         float32   `json:"fps,omitempty"`
 	Size        int       `json:"size,omitempty"`
 	MD5         string    `json:"md5,omitempty"`
 	PublicName  string    `json:"public_name,omitempty"`
